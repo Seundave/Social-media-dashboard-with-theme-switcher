@@ -23,14 +23,46 @@ body {
     margin-left: 20px;
     margin-right: auto;
 }
-.toggle-button {
-    margin-right: 50px;
-    /* color: white; */
-    height: 50px;
-    display: flex;
+
+.Header-light{
+    color:black;
 }
 
-.switch{
+.toggle{
+    background:white;
+    width:45px;
+    height:20px;
+    border-radius:10px;
+    padding:0.4rem;
+    display:flex;
+    align-items: center;
+    margin:0px 10px;
+}
+
+.toggle_btn{
+    background-color: hsl(230, 17%, 14%);
+    height:15px;
+    width:50%;
+    border-radius:50%;
+    transition: all 0.4s;
+}
+
+.night-mode{
+    transform:translateX(100%);
+}
+
+ .toggle-button {
+    display:inline-block;
+    margin-right: 50px;
+    height: 50px;
+    display: flex;
+} 
+
+.night{
+    background-color: hsl(230, 22%, 74%);
+}
+
+/* .switch{
     position:relative;
     display: inline-block;
     width:45px;
@@ -70,7 +102,7 @@ input:checked + .slider{
 
 input:checked + .slider:before{
     transform: translateX(20px);
-}
+} */
 
 .followers{
     font-size:small;
@@ -163,7 +195,7 @@ input:checked + .slider:before{
     width:100%;
     height:auto;
     max-width: 1000px;
-    margin: 50px auto;
+    margin: 10px auto;
     
     /* margin:50px 150px; */
 }
@@ -227,6 +259,30 @@ input:checked + .slider:before{
     .header-title div {
         width: 100%;
     }
+
+    .toggle{
+        height:40px;
+        width:100%;
+        border-radius:15px;
+
+    }
+    
+    .toggle_btn{
+        background-color: hsl(230, 17%, 14%);
+        height:29px;
+        width:20%;
+        border-radius:50%;
+    }
+
+     .toggle-button {
+        display:inline-block;
+        margin-right: 10px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        margin-top:30px;
+    }
+    
    .followers-grid-row{
     display: flex;
     justify-content: flex-start;
@@ -276,12 +332,12 @@ input:checked + .slider:before{
     /* margin:50px 150px; */
 }
 
-.toggle-button{
+/* .toggle-button{
     display:flex;
     justify-content: space-between;
     margin:45px;
     margin-left: 10px;
-}
+} */
 
 
     
