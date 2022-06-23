@@ -348,7 +348,7 @@ input:checked + .slider:before{
     width: 100%;
     background-color: hsl(228, 28%, 20%);
     border-radius: 5px;
-    margin: 10px 0;
+    margin: 10px 10px;
     text-align: center;
 } 
 
@@ -372,7 +372,7 @@ input:checked + .slider:before{
     background-color: hsl(228, 28%, 20%);
     border-radius: 5px;
     justify-content: flex-start;
-    margin:10px;
+    margin:10px 10px;
     align-items: center;
 }
 
