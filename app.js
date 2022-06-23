@@ -7,7 +7,6 @@ toggle.addEventListener("click", (e) => {
     toggleBtn.classList.toggle("night-mode")
     if (toggleBtn.classList.contains("night-mode")){
         Body.classList.add("night");
-        Header.classList.add("Header-light");
     }else{
         Body.classList.remove("night"); 
     }

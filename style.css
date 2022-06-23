@@ -10,6 +10,7 @@ body {
     color:white;
     width:100%;
     height:100%;
+    transition: .5s ease;
 }
 
 .header-title{
@@ -29,7 +30,7 @@ body {
 }
 
 .toggle{
-    background:white;
+    background-color:white;
     width:45px;
     height:20px;
     border-radius:10px;
@@ -47,6 +48,10 @@ body {
     transition: all 0.4s;
 }
 
+.toggle.active{
+    background-color: hsl(192, 82%, 41%);
+}
+
 .night-mode{
     transform:translateX(100%);
 }
@@ -59,8 +64,51 @@ body {
 } 
 
 .night{
+    background-color:hsl(0, 0%, 100%) ;
+    color:black;
+}
+
+.night .followers-info h2{
+    color:black;
+}
+
+.night .grid-box{
+    background-color: hsl(227, 47%, 96%); 
+}
+
+.night .toggle-button h3{
+    color:hsl(230, 22%, 74%);
+}
+
+.night .toggle{
     background-color: hsl(230, 22%, 74%);
 }
+
+.night .toggle_btn{
+    background-color: white;
+}
+
+.night .social-media-address p{
+    color:hsl(230, 6%, 36%);
+}
+
+.night .followers-info h4{
+    color:hsl(230, 6%, 36%);
+}
+
+.night .header p{
+    color:hsl(230, 6%, 36%);
+}
+
+.night .overview{
+    color:hsl(230, 6%, 36%);
+}
+
+.night .overview-grid-box{
+    background-color: hsl(227, 47%, 96%);
+}
+
+
 
 /* .switch{
     position:relative;
@@ -227,7 +275,7 @@ input:checked + .slider:before{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0px 10px;
+    margin: 10px 10px;
 }
 
 .overview-count > h3{
