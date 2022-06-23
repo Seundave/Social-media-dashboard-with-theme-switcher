@@ -318,10 +318,11 @@ input:checked + .slider:before{
         padding:0.4rem;
         display:flex;
         margin:0px 10px;
+        float:right;
     }
     
     .toggle_btn{
-        height:29px;
+        height:20px;
         width:50%;
         border-radius:50%;
     }
