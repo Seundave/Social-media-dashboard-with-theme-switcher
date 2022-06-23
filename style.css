@@ -282,17 +282,26 @@ input:checked + .slider:before{
     margin: 20px 10px;
 }
 
+.icon-image > img{
+    height:4px;
+    margin-top: 19px;
+}
+
 .overview-count > h3{
     font-size:30px;
 }
 
-.overview-count > p{
+.overview-count-icon{
+    display: flex;
+}
+
+.icon-text > p{
     font-size:11px;
     margin-top:15px;
     color:hsl(163, 72%, 41%);
 }
 
-.overview-count > h5{
+.icon-text > h5{
     font-size:11px;
     margin-top:15px;
     color:hsl(356, 69%, 56%);
