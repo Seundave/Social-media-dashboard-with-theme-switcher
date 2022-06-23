@@ -322,7 +322,7 @@ input:checked + .slider:before{
     }
     
     .toggle_btn{
-        height:20px;
+        height:18px;
         width:50%;
         border-radius:50%;
     }
