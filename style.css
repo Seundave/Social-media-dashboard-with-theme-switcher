@@ -167,9 +167,8 @@ input:checked + .slider:before{
     justify-content: flex-start;
     height: auto;
     width:100%;
-    max-width: 1000px;
-    margin: 50px auto;
-    
+    max-width: 1350px;
+    margin: 40px auto;
 }
 
 .social-media-address{
@@ -185,7 +184,8 @@ input:checked + .slider:before{
     width: 25%;
     background-color: hsl(228, 28%, 20%);
     border-radius: 5px;
-    margin-right: 20px;
+    margin:0px 20px;
+    justify-content: space-between;
     
 }
 
@@ -246,21 +246,21 @@ input:checked + .slider:before{
     align-items: center;
     width:100%;
     height:auto;
-    max-width: 1000px;
+    max-width: 1350px;
     margin: 10px auto;
     
     /* margin:50px 150px; */
 }
 
 .overview-grid-box{
-    width:20%;
+    width:22%;
     align-items: center;
     background-color: hsl(228, 28%, 20%);
     border-radius: 5px;
     justify-content: flex-start;
     margin:20px;
     align-items: center;
-    margin-left:27px;
+    
 }
 
 .overview-social-media-address{
@@ -318,7 +318,6 @@ input:checked + .slider:before{
         padding:0.4rem;
         display:flex;
         margin:0px 10px;
-        float:right;
     }
     
     .toggle_btn{
@@ -333,6 +332,7 @@ input:checked + .slider:before{
         height: 50px;
         justify-content: space-between;
         margin-top:30px;
+        width:100%;
     }
     
    .followers-grid-row{
